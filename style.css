@@ -1,0 +1,29 @@
+
+/*estilização do Paragráfo*/
+p{
+	font-family:monospace;
+	font-size:60px;
+	border-right:4px solid;
+	width:11ch;
+	white-space:nowrap;
+	overflow:hidden;
+	animation:typing 2s steps(11),blinking 0.5s infinite step-end alternate;
+	
+}
+/*typing*/
+@keyframes typing{
+	from{
+		width:0;
+	
+		
+		
+	}
+		
+}
+/*blinking*/
+@keyframes blinking{
+50%{
+border-color:transparent;
+}	
+	
+}
